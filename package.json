@@ -1,0 +1,19 @@
+{
+  "name": "js-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deepcloning.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpreetk3289/js-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manpreetk3289/js-code/issues"
+  },
+  "homepage": "https://github.com/manpreetk3289/js-code#readme"
+}
