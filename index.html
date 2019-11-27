@@ -1,7 +1,44 @@
 <!doctype html>
 <head></head>
 <body>
-    <!-- <script src="./deepcloning.js"></script> -->
-    <script src="inheritance_object_create.js"></script>
+    <!-- <script src="./varhoisting.js"></script> -->
+    <!-- <script src="inheritance_object_create.js"></script> -->
+    <!-- <script src="./hoisting.js"></script> -->
+    
+    <div>
+        <a id="abc"  onclick="hello()">link</a>
+    </div>
+    <script>
+       
+        ////
+
+
+ document.getElementById('abc').onclick = function(){
+    console.log('2');
+    alert('hellor')
+ }
+
+ function hello(){
+     console.log('me');
+          alert('hello')
+        }
+
+// let b =[1,2,3,4];
+// function data(a, ...b){
+//     console.log("a",a,"b",b);
+//     console.log(a+b)
+// }
+
+// data(2);
+// data(2,b)
+var obj1 = { foo: 'bar', x: 42 };
+var obj2 = { foo: 'baz', y: 13 };
+const merge = ( ...objects ) => (  console.log(...objects) );
+
+var mergedObj = merge ( [1,2,], [3,4]);
+console.log('m', mergedObj)
+    </script>
+
+
 </body>
 </html>
